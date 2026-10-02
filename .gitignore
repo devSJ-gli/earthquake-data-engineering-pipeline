@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+*-key.json
+**/*-key.json
+service-account*.json
+
+# Local generated API outputs
+earthquakes_raw.json
+earthquakes_l1.jsonl
+scripts/earthquakes_raw.json
+scripts/earthquakes_l1.jsonl
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

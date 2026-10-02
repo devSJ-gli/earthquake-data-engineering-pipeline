@@ -1,0 +1,5 @@
+# Direct runtime dependencies used by the project.
+# Airflow and the Google provider are supplied by the Cloud Composer environment.
+requests
+google-cloud-bigquery
+apache-airflow-providers-google
